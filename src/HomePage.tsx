@@ -13,7 +13,9 @@ export function HomePage() {
   };
 
   const handleOperatorPress = (op: string) => {
-    setFirstOperand(display); setOperator(op); setDisplay('0');
+    setFirstOperand(display);
+    setOperator(op);
+    setDisplay('0');
   };
 
   const handleClear = () => {
